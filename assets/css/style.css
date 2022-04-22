@@ -1,0 +1,67 @@
+:root {
+  --primary: #ffc000;
+  --secondary: #6c757d;
+  --success: #198754;
+  --bg-primary: #ffc107;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+}
+
+body {
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  background-image: url(../img/background.jpg);
+
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+hr {
+  height: 4px !important;
+  background-color: var(--primary);
+}
+
+.card{
+  background-color: transparent;
+  justify-content: center;
+}
+
+.card-body{
+  justify-content: center;
+}
+.card-title{
+  justify-content: center;
+}
+.card img {
+  max-height: 150px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.carousel-item img {
+  max-height: 100vh;
+}
+
+
+.nav-black {
+  background-color: #ffc000;
+  color: #212529;
+  font-size: large;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: red;
+  font-size: large;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #ffc000;
+}
+
+.bg-color {
+  background-color: var(--primary);
+  color: #212529 !important;
+}
