@@ -1,6 +1,6 @@
 :root {
   --primary: #ffc000;
-  --secondary: #6c757d;
+  --secondary: #212529;
   --success: #198754;
   --bg-primary: #ffc107;
   --bs-warning: #ffc107;
@@ -9,59 +9,122 @@
 }
 
 body {
+  font-family: 'Merriweather', serif;
+  color: #212529;
+  background-image: url(../img/Hippopx.jpg);
+  background-repeat: repeat;
+}
+
+nav,
+.navbar-light .navbar-nav .nav-link {
   font-family: 'Fredoka One', cursive;
-  color: black;
-  background-image: url(../img/background.jpg);
-
+  color: #ffc000;
+  font-size: large;
 }
 
-h1 {
-  text-transform: uppercase;
+.nav-black,
+.nav-black .navbar-nav .nav-link {
+  font-family: 'Fredoka One', cursive;
+  background-color: #ffc000;
+  color: #212529;
+  font-size: large;
 }
 
-hr {
-  height: 4px !important;
-  background-color: var(--primary);
+.nav-black .navbar-nav .nav-link:focus,
+.nav-black .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #dc3545;
 }
 
-.card{
-  background-color: transparent;
-  justify-content: center;
-}
-
-.card-body{
-  justify-content: center;
-}
-.card-title{
-  justify-content: center;
-}
-.card img {
-  max-height: 150px;
-  margin-left: auto !important;
-  margin-right: auto !important;
+.navbar-toggler {
+  background-color: #ffc000;
+  color: #ffc000;
 }
 
 .carousel-item img {
   max-height: 100vh;
 }
 
-
-.nav-black {
-  background-color: #ffc000;
-  color: #212529;
-  font-size: large;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: red;
-  font-size: large;
-}
-
-.navbar-light .navbar-toggler {
-  background-color: #ffc000;
-}
-
 .bg-color {
   background-color: var(--primary);
   color: #212529 !important;
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+  font-size: 5rem;
+  font-weight: bolder;
+
+}
+
+h3 {
+  font-family: 'Cookie', cursive;
+  font-size: 3rem;
+  font-weight: bolder;
+
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+hr {
+  height: 4px !important;
+  background-color: var(--primary);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Carta {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.card-title {
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+}
+
+.card img {
+  max-height: 150px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 5rem;
+  padding-left: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+body #Pizzas {
+  background-image: url(../img/pizzaSlide.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: 25rem;
+}
+
+.artista {
+  background-image: url(../img/pizza.png);
+  background-repeat: repeat-x;
+  background-position-y: bottom;
+  padding-bottom: 15rem;
 }
