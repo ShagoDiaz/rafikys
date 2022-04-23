@@ -18,16 +18,15 @@ nav a,
   background-color: #ffc000;
   background-image: url(../img/pizza.png);
   background-repeat: repeat-x;
-
-  color: #dc3545;
+  color: #212529;
   font-size: x-large;
 }
 
 .nav-black a,
 .nav-black .navbar-nav .nav-link {
   font-family: 'Fredoka One', cursive;
-  color: #dc3545;
-  font-size: large;
+  color: #212529;
+  font-size: x-large;
 }
 
 a:hover,
@@ -35,7 +34,7 @@ a:hover,
 .nav-black .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #212529;
+  color: #dc3545;
 }
 
 .navbar-toggler {
@@ -44,7 +43,7 @@ a:hover,
 }
 
 .carousel-item img {
-  max-height: 100vh;
+  width: 100% !important;
 }
 
 h1 {
@@ -157,12 +156,13 @@ ul {
 
 }
 
-footer, footer a{
+footer,
+footer a {
   font-family: 'Fredoka One', cursive;
   background-color: #ffc000;
   background-image: url(../img/pizza.png);
   background-repeat: repeat-x;
   width: max-content;
-  color: #dc3545;
+  color: #212529;
   font-size: large;
 }
