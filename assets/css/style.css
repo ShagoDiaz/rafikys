@@ -156,13 +156,18 @@ ul {
 
 }
 
-footer,
-footer a {
+footer {
   font-family: 'Fredoka One', cursive;
   background-color: #ffc000;
   background-image: url(../img/pizza.png);
   background-repeat: repeat-x;
-  width: max-content;
+  width: 100% !important ;
+  color: #212529;
+
+}
+
+footer a {
+  background-color: #ffc000;
   color: #212529;
   font-size: large;
 }
