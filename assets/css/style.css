@@ -15,14 +15,14 @@ body {
   background-repeat: repeat;
 }
 
-nav,
+nav, nav a,
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Fredoka One', cursive;
   color: #ffc000;
   font-size: large;
 }
 
-.nav-black,
+.nav-black, .nav-black a,
 .nav-black .navbar-nav .nav-link {
   font-family: 'Fredoka One', cursive;
   background-color: #ffc000;
@@ -30,6 +30,7 @@ nav,
   font-size: large;
 }
 
+a:hover,
 .nav-black .navbar-nav .nav-link:focus,
 .nav-black .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus,
@@ -44,11 +45,6 @@ nav,
 
 .carousel-item img {
   max-height: 100vh;
-}
-
-.bg-color {
-  background-color: var(--primary);
-  color: #212529 !important;
 }
 
 h1 {
@@ -98,13 +94,15 @@ hr {
 
 .card-title {
   justify-content: center;
-  font-family: 'Lobster', cursive;
+  font-family: 'Fredoka One', cursive;
 }
 
 .card img {
+  padding-top: 1rem;
   max-height: 150px;
   margin-left: auto !important;
   margin-right: auto !important;
+  border-radius: 25%;
 }
 
 ul {
@@ -127,4 +125,49 @@ body #Pizzas {
   background-repeat: repeat-x;
   background-position-y: bottom;
   padding-bottom: 15rem;
+}
+
+#Hamburguesas {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/burger.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+  background-size: 15rem;
+  padding-bottom: 10rem;
+}
+
+#Sandwichs {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/long-sandwich.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+  background-size: 25rem;
+  padding-bottom: 10rem;
+}
+
+#Chorrillanas {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/fries.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: 15rem;
+}
+
+#Rafiky {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+footer {
+  font-family: 'Fredoka One', cursive;
+  background-color: #ffc000;
+  width: max-content;
+  color: #212529;
+  font-size: large;
 }
