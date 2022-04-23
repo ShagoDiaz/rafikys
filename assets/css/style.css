@@ -101,7 +101,7 @@ hr {
   max-height: 150px;
   margin-left: auto !important;
   margin-right: auto !important;
-  border-radius: 25%;
+  display: none;
 }
 
 ul {
