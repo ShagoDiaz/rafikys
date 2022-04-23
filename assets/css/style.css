@@ -10,7 +10,7 @@ nav a,
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Fredoka One', cursive;
   color: #ffc000;
-  font-size: large;
+  font-size: x-large;
 }
 
 .nav-black {
@@ -20,7 +20,7 @@ nav a,
   background-repeat: repeat-x;
 
   color: #dc3545;
-  font-size: large;
+  font-size: x-large;
 }
 
 .nav-black a,
