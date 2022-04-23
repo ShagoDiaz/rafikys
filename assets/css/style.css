@@ -8,13 +8,13 @@ body {
 nav,
 nav a,
 .navbar-light .navbar-nav .nav-link {
-  font-family: 'Fredoka One', cursive;
+
   color: #ffc000;
   font-size: x-large;
 }
 
 .nav-black {
-  font-family: 'Fredoka One', cursive;
+
   background-color: #ffc000;
   background-image: url(../img/pizza.png);
   background-repeat: repeat-x;
@@ -24,7 +24,7 @@ nav a,
 
 .nav-black a,
 .nav-black .navbar-nav .nav-link {
-  font-family: 'Fredoka One', cursive;
+
   color: #212529;
   font-size: x-large;
 }
@@ -93,7 +93,7 @@ hr {
 
 .card-title {
   justify-content: center;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Cookie', cursive;
 }
 
 .card img {
