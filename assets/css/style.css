@@ -11,15 +11,16 @@ nav a,
 
   color: #ffc000;
   font-size: x-large;
+  font-weight: 900;
 }
 
 .nav-black {
-
   background-color: #ffc000;
   background-image: url(../img/pizza.png);
   background-repeat: repeat-x;
   color: #212529;
   font-size: x-large;
+  font-weight: 900;
 }
 
 .nav-black a,
@@ -39,7 +40,8 @@ a:hover,
 
 .navbar-toggler {
   background-color: #ffc000;
-  color: #ffc000;
+  color: #212529;
+  margin-right: 4rem;
 }
 
 .carousel-item img {
