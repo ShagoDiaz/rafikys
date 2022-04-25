@@ -17,7 +17,7 @@ $(document).scroll(function (e) {
     if (y > 300) $("nav").addClass("nav-black")
     else $("nav").removeClass("nav-black");
 
-    if (y > 300) {        
+    if (y > 250) {        
         $( ".card img" ).removeClass("d-none");
         $( ".card" ).fadeIn( 3000, function() {            
             $( "img" ).fadeIn( 1000);
